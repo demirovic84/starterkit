@@ -1,3 +1,9 @@
+@import './variables.scss';
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -8,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: $primary-color;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: $secondary-color;
 }
 
 @keyframes App-logo-spin {

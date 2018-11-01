@@ -1,0 +1,15 @@
+@import 'src/variables.scss';
+
+
+.header-wrapper {
+  height: $header-height;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header > p {
+  display: flex;
+  align-content: center;
+
+}
