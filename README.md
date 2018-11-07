@@ -1,3 +1,6 @@
+This is my personal starterkit for React. 
+This is a training project to expand my skills and knowledge in React.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
