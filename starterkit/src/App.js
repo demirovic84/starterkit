@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.scss';
+import Section1 from './components/section-1/section-1';
+import Section2 from './components/section-2/section-2';
+import Section3 from './components/section-3/section-3';
 import Header from './components/header/header';
+
 
 
 class App extends Component {
@@ -9,20 +12,10 @@ class App extends Component {
     return (
       <div className="App">
           <Header />
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+          <Section1 />
+          <Section2 />
+          <Section3 />
+
       </div>
     );
   }
