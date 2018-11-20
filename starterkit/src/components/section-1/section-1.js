@@ -10,17 +10,8 @@ import Unsplash from 'react-unsplash-wrapper'
 
 class Section1 extends Component {
 
-    constructor() {
-        super();
-    }
-
-
     render() {
         return (
-
-
-
-
                 <div className="container">
 
                     <div className="box">
@@ -32,7 +23,7 @@ class Section1 extends Component {
                             With React Unsplash Wrapper is really easy to create a Hero image.</p>
                             </Unsplash>
                         </div>
-                        <a href="#"></a>
+
                     </div>
 
                     <div className="box">
@@ -44,7 +35,7 @@ class Section1 extends Component {
                                     With React Unsplash Wrapper is really easy to create a Hero image.</p>
                             </Unsplash>
                         </div>
-                        <a href="#"></a>
+
                     </div>
 
                     <div className="box">
@@ -56,7 +47,6 @@ class Section1 extends Component {
                                     With React Unsplash Wrapper is really easy to create a Hero image.</p>
                             </Unsplash>
                         </div>
-                        <a href="#"></a>
                     </div>
 
                     <div className="box">
@@ -68,7 +58,6 @@ class Section1 extends Component {
                                     With React Unsplash Wrapper is really easy to create a Hero image.</p>
                             </Unsplash>
                         </div>
-                        <a href="#"></a>
                     </div>
 
                     <div className="box">
@@ -80,7 +69,6 @@ class Section1 extends Component {
                                     With React Unsplash Wrapper is really easy to create a Hero image.</p>
                             </Unsplash>
                         </div>
-                        <a href="#"></a>
                     </div>
 
                     <div className="box">
@@ -92,7 +80,6 @@ class Section1 extends Component {
                                     With React Unsplash Wrapper is really easy to create a Hero image.</p>
                             </Unsplash>
                         </div>
-                        <a href="#"></a>
                     </div>
 
                     <div className="box">
@@ -104,7 +91,6 @@ class Section1 extends Component {
                                     With React Unsplash Wrapper is really easy to create a Hero image.</p>
                             </Unsplash>
                         </div>
-                        <a href="#"></a>
                     </div>
 
                     <div className="box">
@@ -116,7 +102,6 @@ class Section1 extends Component {
                                     With React Unsplash Wrapper is really easy to create a Hero image.</p>
                             </Unsplash>
                         </div>
-                        <a href="#"></a>
                     </div>
 
                 </div>
