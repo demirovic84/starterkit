@@ -5,6 +5,9 @@ import Section2 from './components/section-2/section-2';
 import Section3 from './components/section-3/section-3';
 import Header from './components/header/header';
 import Footer from './components/footer/footer';
+import {CircleArrow as ScrollUpButton} from "react-scroll-up-button";
+
+
 
 
 
@@ -17,6 +20,10 @@ class App extends Component {
           <Section2 />
           <Section3 />
           <Footer />
+          <div>
+              <ScrollUpButton style={{border:"2px solid aquamarine", outline: "none", width: 25, height: 25, padding: 5}} ContainerClassName="upButton" TransitionClassName="MyOverRideTransitionedClass"/>
+
+          </div>
       </div>
     );
   }
