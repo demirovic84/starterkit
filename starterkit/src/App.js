@@ -4,6 +4,7 @@ import Section1 from './components/section-1/section-1';
 import Section2 from './components/section-2/section-2';
 import Section3 from './components/section-3/section-3';
 import Header from './components/header/header';
+import Footer from './components/footer/footer';
 
 
 
@@ -15,7 +16,7 @@ class App extends Component {
           <Section1 />
           <Section2 />
           <Section3 />
-
+          <Footer />
       </div>
     );
   }
